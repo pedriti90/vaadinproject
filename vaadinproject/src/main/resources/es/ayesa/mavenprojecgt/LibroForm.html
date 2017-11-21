@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;GENERATE_GETTERS&quot;:false,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;mytheme&quot;}">
+  <meta name="vaadin-version" content="8.0.5">
+ </head>
+ <body>
+  <vaadin-form-layout caption="FormLayout" size-full margin>
+   <vaadin-text-field caption="Titulo" _id="titulo"></vaadin-text-field>
+   <vaadin-text-field caption="Autor" _id="autor"></vaadin-text-field>
+   <vaadin-native-select caption="Cliente" data-item-type="es.ayesa.mavenprojecgt.Cliente" _id="cliente"></vaadin-native-select>
+   <vaadin-horizontal-layout>
+    <vaadin-button style-name="primary" plain-text _id="guardar">
+      Guardar 
+    </vaadin-button>
+    <vaadin-button plain-text _id="borrar">
+      Borrar 
+    </vaadin-button>
+   </vaadin-horizontal-layout>
+  </vaadin-form-layout>
+ </body>
+</html>
